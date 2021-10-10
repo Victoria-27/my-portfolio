@@ -1,6 +1,6 @@
 html {
     font-family: cursive;
-}
+    }
 
 nav {
     display: flex;
@@ -9,106 +9,111 @@ nav {
     justify-content: flex-end;
     align-items: flex-end;
     height: 6.5rem;
-  }
+    }
 
-  ul {
+ul {
     display: flex;
     list-style: none;
     padding: 0;
-  }
-  ul a {
-      margin-right: 2.5rem;
-      color:violet;
-      text-decoration: none;
-  }
-  #about_section {
-      background-color: gray;
-      padding: 5rem;
-      display: flex;
-      color: white;
-      text-align: center;
-  }
-  img {
-      width: 300px;
-      height: 300px;
-      margin-left: 5rem;
-
-  }
-  #skills_section {
-      display: flex;
-      justify-content: space-between;
-      padding: 5rem;
-      background-color: violet;
     }
 
-    #skills_list {
-        display: flex;
-        flex-direction: column;
+ul a {
+    margin-right: 2.5rem;
+    color:violet;
+    text-decoration: none;
     }
 
-    li {
-        margin: 0.5rem;
+#about_section {
+    background-color: gray;
+    padding: 5rem;
+    display: flex;
+    color: white;
+    text-align: center;
+    }
+
+img {
+    width: 300px;
+    height: 300px;
+    margin-left: 5rem;
+    border-radius: 1rem;
+
+    }
+
+#skills_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    background-color: violet;
+    }
+
+#skills_list {
+    display: flex;
+    flex-direction: column;
+    }
+
+li {
+    margin: 0.5rem;
     }
 
     #contact_section {
-        display: flex;
-        justify-content: space-evenly;
-        padding: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem;
     }
 
-    .fa-facebook-square {
-        color: blue;
-    }
-
-    .fa-github {
-        color: black;
-    }
-
-    .fa-linkedin {
+.fa-facebook-square {
     color: blue;
-}
+    }
+
+.fa-github {
+    color: black;
+    }
+
+.fa-linkedin {
+    color: blue;
+    }
 
 .fa-twitter {
     color: dodgerblue;
-}
+    }
 
 #contact_section a {
     color: black;
     text-decoration: none;
-}
+    }      
 
 .fab {
     margin-right: 0.5rem;
-}
+    }
 
 #contact_section {
-   background-color: #e7decc;
-}
+    background-color: #e7decc;
+    }
 
 .fa-html5 {
     color: red;
-}
+    }
 
 .fa-css3-alt {
     color: royalblue;
-}
+    }
 
 .fa-js {
     color: goldenrod;
-}
+    }
 
 #skills_section {
     background-image: url(background_image.jpg);
-}
+    }
 
 .skill {
     color: violet;
-}
+    }
 
 h2 {
     color: goldenrod;
-}
+    }
 
 .work {
     color: violet;
-}
+    }
