@@ -1,5 +1,9 @@
 
 
+body {
+    margin: 0;
+}
+
 html {
     font-family: cursive;
     }
@@ -31,6 +35,7 @@ ul a {
     display: flex;
     color: white;
     text-align: center;
+    justify-content: center;
     }
 
 img {
