@@ -37,9 +37,6 @@ ul a {
     text-align: center;
     justify-content: center;
     }
-    strong {
-        font-weight: var(--fw-bold);
-    }
 
 img {
     width: 300px;
@@ -134,3 +131,7 @@ h2 {
 .work {
     color: violet;
     }
+
+.names {
+    font-size: xx-large;
+}
